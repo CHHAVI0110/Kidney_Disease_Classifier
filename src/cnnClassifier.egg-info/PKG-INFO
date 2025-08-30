@@ -1,0 +1,44 @@
+Metadata-Version: 2.4
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A package for classifying kidney diseases
+Home-page: https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}
+Author: CHHAVI0110
+Author-email: sharmachavi0110@gmail.com
+Project-URL: Bug Tracker, https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+# Kidney_Disease_Classifier-MLflow-DVC
+
+
+
+# HOW TO RUN?
+### STEPS:
+
+clone the repository
+
+```bash
+https://github.com/CHHAVI0110/Kidney_Disease_Classifier
+```
+### STEP 01- Create a conda environment after opening repository
+
+```bash
+conda create -n cnncls python=3.10 -y
+```
+
+```bash
+conda activate cnncls
+```
+
+
+### STEP 02- Install the requirements
+```bash
+pip install -r requirements.txt
+```
