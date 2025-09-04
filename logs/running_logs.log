@@ -1,1 +1,136 @@
 [2025-08-30 15:34:54,960: INFO: main: Welcome to the kidney disease classifier]
+[2025-09-01 11:58:40,984: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-01 11:58:40,989: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-01 11:58:40,990: INFO: common: created directory at: artifacts_root]
+[2025-09-01 11:58:40,992: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-01 11:58:40,992: INFO: 2539216739: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2025-09-01 12:05:17,756: INFO: 2539216739: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts/data_ingestion/data.zip]
+[2025-09-03 21:18:50,278: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-03 21:18:50,290: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-03 21:18:50,296: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-03 21:18:50,297: INFO: common: created directory at: artifacts_root]
+[2025-09-03 21:18:50,297: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-03 21:18:50,297: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2025-09-03 21:30:34,024: ERROR: main: ('Connection broken: IncompleteRead(406612668 bytes read, 1221306640 more expected)', IncompleteRead(406612668 bytes read, 1221306640 more expected))]
+Traceback (most recent call last):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 779, in _error_catcher
+    yield
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 925, in _raw_read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+urllib3.exceptions.IncompleteRead: IncompleteRead(406612668 bytes read, 1221306640 more expected)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 1091, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 1008, in read
+    data = self._raw_read(amt)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 903, in _raw_read
+    with self._error_catcher():
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 803, in _error_catcher
+    raise ProtocolError(arg, e) from e
+urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(406612668 bytes read, 1221306640 more expected)', IncompleteRead(406612668 bytes read, 1221306640 more expected))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 8, in <module>
+    data_ingestion.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\data_ingestion.py", line 32, in download_file
+    raise e
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\data_ingestion.py", line 27, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\gdown\download.py", line 368, in download
+    for chunk in res.iter_content(chunk_size=CHUNK_SIZE):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\models.py", line 822, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(406612668 bytes read, 1221306640 more expected)', IncompleteRead(406612668 bytes read, 1221306640 more expected))
+[2025-09-03 21:33:00,035: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-03 21:33:00,037: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-03 21:33:00,038: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-03 21:33:00,039: INFO: common: created directory at: artifacts_root]
+[2025-09-03 21:33:00,039: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-03 21:33:00,040: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2025-09-03 22:00:51,877: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-03 22:00:51,877: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-03 22:00:51,889: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-03 22:00:51,889: INFO: common: created directory at: artifacts_root]
+[2025-09-03 22:00:51,889: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-03 22:00:51,889: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2025-09-03 22:00:51,905: ERROR: main: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CC19B66770>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)"))]
+Traceback (most recent call last):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001CC19B66770>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CC19B66770>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 8, in <module>
+    data_ingestion.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\data_ingestion.py", line 32, in download_file
+    raise e
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\data_ingestion.py", line 27, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\gdown\download.py", line 202, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CC19B66770>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)"))
+[2025-09-03 22:01:50,523: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-03 22:01:50,524: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-03 22:01:50,524: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-03 22:01:50,524: INFO: common: created directory at: artifacts_root]
+[2025-09-03 22:01:50,524: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-03 22:01:50,527: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2025-09-03 22:04:47,128: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts/data_ingestion/data.zip]
+[2025-09-03 22:05:02,875: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
