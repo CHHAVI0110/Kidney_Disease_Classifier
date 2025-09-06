@@ -134,3 +134,30 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='drive.google.com'
 [2025-09-03 22:05:02,875: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
 
 x==========x]
+[2025-09-06 15:05:29,722: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-06 15:05:29,737: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-06 15:05:29,738: INFO: common: created directory at: artifacts_root]
+[2025-09-06 15:05:29,738: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-09-06 15:05:41,527: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-06 15:30:28,487: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-06 15:30:28,497: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-06 15:30:28,503: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-06 15:30:28,504: INFO: common: created directory at: artifacts_root]
+[2025-09-06 15:30:28,504: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-06 15:30:28,505: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2025-09-06 15:39:23,667: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts/data_ingestion/data.zip]
+[2025-09-06 15:39:38,508: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2025-09-06 15:39:38,508: INFO: main: ********************************]
+[2025-09-06 15:39:38,508: INFO: main: >>>>> stage Prepare Base Model stage started <<<<<]
+[2025-09-06 15:39:38,510: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-06 15:39:38,513: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-06 15:39:38,513: INFO: common: created directory at: artifacts_root]
+[2025-09-06 15:39:38,513: ERROR: main: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config']
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 20, in <module>
+    prepare_base_model.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 13, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config'
