@@ -161,3 +161,1702 @@ Traceback (most recent call last):
   File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 13, in main
     prepare_base_model_config = config.get_prepare_base_model_config()
 AttributeError: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config'
+[2025-09-06 16:29:21,650: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-06 16:29:21,654: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-06 16:29:21,655: INFO: common: created directory at: artifacts_root]
+[2025-09-06 16:29:21,657: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-09-06 16:29:22,240: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-06 16:33:23,592: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-06 16:33:23,600: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-06 16:33:23,600: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-06 16:33:23,600: INFO: common: created directory at: artifacts_root]
+[2025-09-06 16:33:23,600: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-06 16:33:23,600: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2025-09-06 16:38:47,764: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts/data_ingestion/data.zip]
+[2025-09-06 16:39:03,648: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2025-09-06 16:39:03,648: INFO: main: ********************************]
+[2025-09-06 16:39:03,648: INFO: main: >>>>> stage Prepare Base Model stage started <<<<<]
+[2025-09-06 16:39:03,648: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-06 16:39:03,667: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-06 16:39:03,667: INFO: common: created directory at: artifacts_root]
+[2025-09-06 16:39:03,667: ERROR: main: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config']
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 20, in <module>
+    prepare_base_model.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 13, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config'
+[2025-09-06 16:43:24,895: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-06 16:43:24,897: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-06 16:43:24,899: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-06 16:43:24,900: INFO: common: created directory at: artifacts_root]
+[2025-09-06 16:43:24,900: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-06 16:43:24,900: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2025-09-06 16:48:43,349: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts/data_ingestion/data.zip]
+[2025-09-06 16:48:54,864: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2025-09-06 16:48:54,864: INFO: main: ********************************]
+[2025-09-06 16:48:54,864: INFO: main: >>>>> stage Prepare Base Model stage started <<<<<]
+[2025-09-06 16:48:54,864: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-06 16:48:54,864: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-06 16:48:54,864: INFO: common: created directory at: artifacts_root]
+[2025-09-06 16:48:54,864: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-09-06 16:48:55,227: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-06 16:48:55,876: INFO: main: >>>>> stage Prepare Base Model stage completed <<<<<
+
+x==========x]
+[2025-09-06 21:45:13,831: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-06 21:45:13,837: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-06 21:45:13,839: INFO: common: created directory at: artifacts_root]
+[2025-09-06 21:45:13,840: INFO: common: created directory at: artifacts\training]
+[2025-09-06 21:50:19,088: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-06 21:50:19,093: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-06 21:50:19,094: INFO: common: created directory at: artifacts_root]
+[2025-09-06 21:50:19,096: INFO: common: created directory at: artifacts\training]
+[2025-09-06 21:51:02,657: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-06 21:51:02,659: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-06 21:51:02,662: INFO: common: created directory at: artifacts_root]
+[2025-09-06 21:51:02,664: INFO: common: created directory at: artifacts\training]
+[2025-09-06 21:52:30,798: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-06 21:52:30,801: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-06 21:52:30,804: INFO: common: created directory at: artifacts_root]
+[2025-09-06 21:52:30,804: INFO: common: created directory at: artifacts\training]
+[2025-09-07 09:42:12,179: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-07 09:42:12,189: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-07 09:42:12,191: INFO: common: created directory at: artifacts_root]
+[2025-09-07 09:42:12,192: INFO: common: created directory at: artifacts\training]
+[2025-09-09 14:29:13,874: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-09 14:29:13,882: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-09 14:29:13,884: INFO: common: created directory at: artifacts_root]
+[2025-09-09 14:29:13,885: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-09-09 14:29:14,450: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-09 15:18:21,359: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-09 15:18:21,363: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-09 15:18:21,365: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-09 15:18:21,365: INFO: common: created directory at: artifacts_root]
+[2025-09-09 15:18:21,365: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-09 15:18:21,365: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2025-09-09 15:25:42,098: ERROR: main: ('Connection broken: IncompleteRead(527248140 bytes read, 1100671168 more expected)', IncompleteRead(527248140 bytes read, 1100671168 more expected))]
+Traceback (most recent call last):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 779, in _error_catcher
+    yield
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 925, in _raw_read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+urllib3.exceptions.IncompleteRead: IncompleteRead(527248140 bytes read, 1100671168 more expected)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 1091, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 1008, in read
+    data = self._raw_read(amt)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 903, in _raw_read
+    with self._error_catcher():
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 803, in _error_catcher
+    raise ProtocolError(arg, e) from e
+urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(527248140 bytes read, 1100671168 more expected)', IncompleteRead(527248140 bytes read, 1100671168 more expected))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\data_ingestion.py", line 32, in download_file
+    raise e
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\data_ingestion.py", line 27, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\gdown\download.py", line 368, in download
+    for chunk in res.iter_content(chunk_size=CHUNK_SIZE):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\models.py", line 822, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(527248140 bytes read, 1100671168 more expected)', IncompleteRead(527248140 bytes read, 1100671168 more expected))
+[2025-09-09 15:26:08,456: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-09 15:26:08,458: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-09 15:26:08,461: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-09 15:26:08,461: INFO: common: created directory at: artifacts_root]
+[2025-09-09 15:26:08,462: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-09 15:26:08,463: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2025-09-09 21:24:05,238: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-09 21:24:05,240: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-09 21:24:05,241: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-09 21:24:05,242: INFO: common: created directory at: artifacts_root]
+[2025-09-09 21:24:05,242: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-09 21:24:05,242: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2025-09-09 21:24:05,251: ERROR: main: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001E4DAC3DAE0>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)"))]
+Traceback (most recent call last):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001E4DAC3DAE0>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001E4DAC3DAE0>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\data_ingestion.py", line 32, in download_file
+    raise e
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\data_ingestion.py", line 27, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\gdown\download.py", line 202, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001E4DAC3DAE0>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)"))
+[2025-09-09 21:25:16,160: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-09 21:25:16,176: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-09 21:25:16,177: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-09 21:25:16,177: INFO: common: created directory at: artifacts_root]
+[2025-09-09 21:25:16,178: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-09 21:25:16,178: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts/data_ingestion/data.zip]]
+[2025-09-09 21:27:50,002: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts/data_ingestion/data.zip]
+[2025-09-09 21:28:04,778: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2025-09-09 21:28:04,778: INFO: main: ********************************]
+[2025-09-09 21:28:04,779: INFO: main: >>>>> stage Prepare Base Model stage started <<<<<]
+[2025-09-09 21:28:04,782: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-09 21:28:04,783: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-09 21:28:04,783: INFO: common: created directory at: artifacts_root]
+[2025-09-09 21:28:04,784: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-09-09 21:28:05,274: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-09 21:28:05,492: INFO: main: >>>>> stage Prepare Base Model stage completed <<<<<
+
+x==========x]
+[2025-09-09 21:44:15,249: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-09 21:44:15,254: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-09 21:44:15,255: INFO: common: created directory at: artifacts_root]
+[2025-09-09 21:44:15,257: INFO: common: created directory at: artifacts\training]
+[2025-09-12 22:30:09,911: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-12 22:30:09,922: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-12 22:30:09,923: INFO: common: created directory at: artifacts_root]
+[2025-09-12 22:30:09,924: INFO: common: created directory at: artifacts\training]
+[2025-09-13 19:43:51,199: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-13 19:43:51,215: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-13 19:43:51,215: INFO: common: created directory at: artifacts_root]
+[2025-09-13 19:43:51,218: INFO: common: created directory at: artifacts\training]
+[2025-09-15 21:23:14,719: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-15 21:23:14,733: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-15 21:23:14,739: INFO: common: created directory at: artifacts_root]
+[2025-09-15 21:23:14,741: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-09-15 21:26:31,122: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-15 21:26:31,125: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-15 21:26:31,127: INFO: common: created directory at: artifacts_root]
+[2025-09-15 21:26:31,129: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-09-15 21:44:19,200: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-15 21:44:19,203: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-15 21:44:19,206: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-15 21:44:19,206: INFO: common: created directory at: artifacts_root]
+[2025-09-15 21:44:19,207: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-09-15 21:44:56,539: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-15 21:44:56,542: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-15 21:44:56,545: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-15 21:44:56,545: INFO: common: created directory at: artifacts_root]
+[2025-09-15 21:44:56,545: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-09-15 21:55:09,242: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-15 21:55:09,245: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-15 21:55:09,249: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-15 21:55:09,249: INFO: common: created directory at: artifacts_root]
+[2025-09-15 21:55:09,249: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-09-15 22:01:36,796: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-15 22:01:36,800: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-15 22:01:36,801: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-15 22:01:36,802: INFO: common: created directory at: artifacts_root]
+[2025-09-15 22:01:36,803: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-15 22:01:36,804: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-15 22:01:41,276: ERROR: main: 'WindowsPath' object has no attribute 'write']
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\data_ingestion.py", line 32, in download_file
+    raise e
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\data_ingestion.py", line 27, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\gdown\download.py", line 369, in download
+    f.write(chunk)
+AttributeError: 'WindowsPath' object has no attribute 'write'
+[2025-09-15 22:41:03,982: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-15 22:41:03,985: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-15 22:41:03,987: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-15 22:41:03,987: INFO: common: created directory at: artifacts_root]
+[2025-09-15 22:41:03,987: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-15 22:41:03,988: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-15 22:44:06,227: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-15 22:44:21,587: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2025-09-15 22:44:21,587: INFO: main: ********************************]
+[2025-09-15 22:44:21,588: INFO: main: >>>>> stage Prepare Base Model stage started <<<<<]
+[2025-09-15 22:44:21,590: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-15 22:44:21,591: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-15 22:44:21,592: INFO: common: created directory at: artifacts_root]
+[2025-09-15 22:44:21,592: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-09-15 22:44:22,853: INFO: main: >>>>> stage Prepare Base Model stage completed <<<<<
+
+x==========x]
+[2025-09-15 22:59:41,914: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-15 22:59:41,914: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-15 22:59:41,914: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-15 22:59:41,914: INFO: common: created directory at: artifacts_root]
+[2025-09-15 22:59:41,914: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-15 22:59:41,914: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-15 23:02:50,250: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-15 23:03:03,858: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2025-09-15 23:03:03,858: INFO: main: ********************************]
+[2025-09-15 23:03:03,858: INFO: main: >>>>> stage Prepare Base Model stage started <<<<<]
+[2025-09-15 23:03:03,863: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-15 23:03:03,866: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-15 23:03:03,866: INFO: common: created directory at: artifacts_root]
+[2025-09-15 23:03:03,866: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-09-15 23:03:04,942: ERROR: main: 'PrepareBaseModelConfig' object has no attribute 'base_model_path']
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 20, in <module>
+    prepare_base_model.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 15, in main
+    prepare_base_model.get_base_model()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\prepare_base_model.py", line 18, in get_base_model
+    self.save_model(path=self.config.base_model_path, model=self.model)
+AttributeError: 'PrepareBaseModelConfig' object has no attribute 'base_model_path'
+[2025-09-15 23:05:30,715: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-15 23:05:30,718: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-15 23:05:30,720: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-15 23:05:30,720: INFO: common: created directory at: artifacts_root]
+[2025-09-15 23:05:30,720: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-15 23:05:30,721: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-15 23:08:37,232: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-15 23:08:50,305: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2025-09-15 23:08:50,307: INFO: main: ********************************]
+[2025-09-15 23:08:50,307: INFO: main: >>>>> stage Prepare Base Model stage started <<<<<]
+[2025-09-15 23:08:50,307: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-15 23:08:50,307: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-15 23:08:50,313: INFO: common: created directory at: artifacts_root]
+[2025-09-15 23:08:50,313: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-09-15 23:08:50,313: ERROR: main: PrepareBaseModelConfig.__init__() missing 2 required positional arguments: 'base_model_path' and 'updated_base_model_path']
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 20, in <module>
+    prepare_base_model.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 13, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\config\configuration.py", line 31, in get_prepare_base_model_config
+    prepare_base_model_config = PrepareBaseModelConfig(
+TypeError: PrepareBaseModelConfig.__init__() missing 2 required positional arguments: 'base_model_path' and 'updated_base_model_path'
+[2025-09-15 23:13:54,134: INFO: main: >>>>> stage Data Ingestion stage started <<<<<]
+[2025-09-15 23:13:54,137: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-15 23:13:54,140: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-15 23:13:54,141: INFO: common: created directory at: artifacts_root]
+[2025-09-15 23:13:54,141: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-15 23:13:54,142: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-15 23:16:23,258: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-15 23:16:36,265: INFO: main: >>>>> stage Data Ingestion stage completed <<<<<
+
+x==========x]
+[2025-09-15 23:16:36,265: INFO: main: ********************************]
+[2025-09-15 23:16:36,265: INFO: main: >>>>> stage Prepare Base Model stage started <<<<<]
+[2025-09-15 23:16:36,265: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-15 23:16:36,265: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-15 23:16:36,265: INFO: common: created directory at: artifacts_root]
+[2025-09-15 23:16:36,265: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-09-15 23:16:37,321: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-15 23:16:38,101: INFO: main: >>>>> stage Prepare Base Model stage completed <<<<<
+
+x==========x]
+[2025-09-15 23:42:32,763: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-15 23:42:32,767: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-15 23:42:32,769: INFO: common: created directory at: artifacts_root]
+[2025-09-15 23:42:32,771: INFO: common: created directory at: artifacts\training]
+[2025-09-16 13:30:00,240: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 13:30:00,249: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 13:30:00,250: INFO: common: created directory at: artifacts_root]
+[2025-09-16 13:30:00,252: INFO: common: created directory at: artifacts\training]
+[2025-09-16 13:32:02,865: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 13:32:02,867: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 13:32:02,869: INFO: common: created directory at: artifacts_root]
+[2025-09-16 13:32:02,870: INFO: common: created directory at: artifacts\training]
+[2025-09-16 13:58:45,854: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 13:58:45,862: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 13:58:45,862: INFO: common: created directory at: artifacts_root]
+[2025-09-16 13:58:45,867: INFO: common: created directory at: artifacts\training]
+[2025-09-16 16:19:03,674: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 16:19:03,677: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 16:19:03,679: INFO: common: created directory at: artifacts_root]
+[2025-09-16 16:19:03,681: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-09-16 16:41:36,753: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 16:41:36,757: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 16:41:36,758: INFO: common: created directory at: artifacts_root]
+[2025-09-16 16:41:36,759: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-16 16:42:55,420: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 16:42:55,423: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 16:42:55,425: INFO: common: created directory at: artifacts_root]
+[2025-09-16 16:42:55,427: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-16 16:51:35,602: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-16 16:51:35,604: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 16:51:35,605: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 16:51:35,606: INFO: common: created directory at: artifacts_root]
+[2025-09-16 16:51:35,606: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-16 16:51:35,607: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-16 16:54:13,490: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-16 16:54:26,560: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-16 16:54:26,560: INFO: main: ********************************]
+[2025-09-16 16:54:26,561: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-16 16:54:26,563: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 16:54:26,564: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 16:54:26,565: INFO: common: created directory at: artifacts_root]
+[2025-09-16 16:54:26,566: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-16 16:54:27,776: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 16:54:27,777: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 16:54:27,777: INFO: common: created directory at: artifacts_root]
+[2025-09-16 16:54:27,778: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-16 16:54:27,778: INFO: main: Base model saved at: artifacts\prepare_base_model\base_model.h5]
+[2025-09-16 16:54:27,778: INFO: main: Updated model saved at: artifacts\prepare_base_model\updated_base_model.h5]
+[2025-09-16 16:54:27,778: INFO: main: >>>>> stage Prepare Base Model Stage completed <<<<<
+
+x==========x]
+[2025-09-16 17:07:40,414: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-16 17:07:40,416: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 17:07:40,417: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 17:07:40,418: INFO: common: created directory at: artifacts_root]
+[2025-09-16 17:07:40,418: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-16 17:07:40,419: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-16 17:10:13,717: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-16 17:10:25,416: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-16 17:10:25,416: INFO: main: ********************************]
+[2025-09-16 17:10:25,416: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-16 17:10:25,416: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 17:10:25,416: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 17:10:25,421: INFO: common: created directory at: artifacts_root]
+[2025-09-16 17:10:25,421: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-16 17:10:26,498: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-16 17:10:26,932: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 17:10:26,934: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 17:10:26,934: INFO: common: created directory at: artifacts_root]
+[2025-09-16 17:10:26,934: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-16 17:10:26,934: INFO: main: Base model saved at: artifacts\prepare_base_model\base_model.h5]
+[2025-09-16 17:10:26,934: INFO: main: Updated model saved at: artifacts\prepare_base_model\updated_base_model.h5]
+[2025-09-16 17:10:26,935: INFO: main: >>>>> stage Prepare Base Model Stage completed <<<<<
+
+x==========x]
+[2025-09-16 17:44:34,582: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 17:44:34,588: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 17:44:34,590: INFO: common: created directory at: artifacts_root]
+[2025-09-16 17:44:34,593: INFO: common: created directory at: artifacts\training]
+[2025-09-16 17:47:13,004: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 17:47:13,007: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 17:47:13,008: INFO: common: created directory at: artifacts_root]
+[2025-09-16 17:47:13,010: INFO: common: created directory at: artifacts\training]
+[2025-09-16 17:49:59,135: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 17:49:59,140: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 17:49:59,141: INFO: common: created directory at: artifacts_root]
+[2025-09-16 17:49:59,142: INFO: common: created directory at: artifacts\training]
+[2025-09-16 17:51:22,031: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 17:51:22,035: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 17:51:22,037: INFO: common: created directory at: artifacts_root]
+[2025-09-16 17:51:22,038: INFO: common: created directory at: artifacts\training]
+[2025-09-16 17:53:31,533: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 17:53:31,546: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 17:53:31,551: INFO: common: created directory at: artifacts_root]
+[2025-09-16 17:53:31,553: INFO: common: created directory at: artifacts\training]
+[2025-09-16 17:59:42,541: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 17:59:42,544: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 17:59:42,547: INFO: common: created directory at: artifacts_root]
+[2025-09-16 17:59:42,549: INFO: common: created directory at: artifacts\training]
+[2025-09-16 18:00:59,211: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 18:00:59,214: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 18:00:59,215: INFO: common: created directory at: artifacts_root]
+[2025-09-16 18:00:59,217: INFO: common: created directory at: artifacts\training]
+[2025-09-16 18:03:34,328: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 18:03:34,332: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 18:03:34,334: INFO: common: created directory at: artifacts_root]
+[2025-09-16 18:03:34,337: INFO: common: created directory at: artifacts\training]
+[2025-09-16 18:12:16,528: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-16 18:12:16,535: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-16 18:12:16,535: INFO: common: created directory at: artifacts_root]
+[2025-09-16 18:12:16,538: INFO: common: created directory at: artifacts\training]
+[2025-09-17 14:34:30,833: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 14:34:30,846: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 14:34:30,856: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 14:34:30,857: INFO: common: created directory at: artifacts_root]
+[2025-09-17 14:34:30,857: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 14:34:30,858: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 14:37:00,373: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-17 14:37:15,947: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-17 14:37:15,947: INFO: main: ********************************]
+[2025-09-17 14:37:15,947: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-17 14:37:15,950: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 14:37:15,952: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 14:37:15,952: INFO: common: created directory at: artifacts_root]
+[2025-09-17 14:37:15,953: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-17 14:37:29,722: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-17 14:37:29,824: ERROR: main: Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>.]
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 31, in <module>
+    prepare_base_model_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 23, in main
+    prepare_base_model.save_model(
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\prepare_base_model.py", line 83, in save_model
+    model.save(path)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+TypeError: Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>.
+[2025-09-17 14:49:16,170: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 14:49:16,180: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 14:49:16,182: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 14:49:16,182: INFO: common: created directory at: artifacts_root]
+[2025-09-17 14:49:16,183: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 14:49:16,183: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 14:51:41,894: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-17 14:51:56,241: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-17 14:51:56,241: INFO: main: ********************************]
+[2025-09-17 14:51:56,243: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-17 14:51:56,244: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 14:51:56,247: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 14:51:56,247: INFO: common: created directory at: artifacts_root]
+[2025-09-17 14:51:56,249: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-17 14:51:59,253: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-17 14:51:59,362: ERROR: main: Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>.]
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 31, in <module>
+    prepare_base_model_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 23, in main
+    prepare_base_model.save_model(
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\prepare_base_model.py", line 85, in save_model
+    model.save(path, save_format="h5")
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+TypeError: Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>.
+[2025-09-17 14:59:41,532: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 14:59:41,536: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 14:59:41,538: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 14:59:41,538: INFO: common: created directory at: artifacts_root]
+[2025-09-17 14:59:41,538: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 14:59:41,539: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 15:02:33,202: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-17 15:02:46,648: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-17 15:02:46,648: INFO: main: ********************************]
+[2025-09-17 15:02:46,648: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-17 15:02:46,648: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 15:02:46,648: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 15:02:46,648: INFO: common: created directory at: artifacts_root]
+[2025-09-17 15:02:46,655: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-17 15:02:49,717: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-17 15:02:49,805: ERROR: main: Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>.]
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 31, in <module>
+    prepare_base_model_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 23, in main
+    prepare_base_model.save_model(
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\prepare_base_model.py", line 85, in save_model
+    model.save(path, include_optimizer=False, save_format="h5")
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+TypeError: Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>.
+[2025-09-17 15:18:40,915: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 15:18:40,917: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 15:18:40,920: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 15:18:40,920: INFO: common: created directory at: artifacts_root]
+[2025-09-17 15:18:40,920: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 15:18:40,920: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 15:21:16,490: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-17 15:21:29,778: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-17 15:21:29,778: INFO: main: ********************************]
+[2025-09-17 15:21:29,778: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-17 15:21:29,778: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 15:21:29,778: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 15:21:29,778: INFO: common: created directory at: artifacts_root]
+[2025-09-17 15:21:29,778: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-17 15:21:32,785: ERROR: main: Provided `save_format` is inconsistent with `filepath`. Received: save_format='tf', filepath='artifacts\prepare_base_model\base_model.h5']
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 31, in <module>
+    prepare_base_model_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 23, in main
+    prepare_base_model.save_model(
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\prepare_base_model.py", line 84, in save_model
+    model.save(path, save_format="tf")   # Save in TensorFlow SavedModel format
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 262, in get_save_format
+    raise ValueError(
+ValueError: Provided `save_format` is inconsistent with `filepath`. Received: save_format='tf', filepath='artifacts\prepare_base_model\base_model.h5'
+[2025-09-17 15:23:57,781: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 15:23:57,785: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 15:23:57,787: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 15:23:57,788: INFO: common: created directory at: artifacts_root]
+[2025-09-17 15:23:57,789: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 15:23:57,790: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 15:26:40,720: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-17 15:26:54,289: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-17 15:26:54,289: INFO: main: ********************************]
+[2025-09-17 15:26:54,290: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-17 15:26:54,292: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 15:26:54,293: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 15:26:54,294: INFO: common: created directory at: artifacts_root]
+[2025-09-17 15:26:54,294: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-17 15:26:57,290: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-17 15:27:19,947: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 160). These functions will not be directly callable after loading.]
+[2025-09-17 15:27:44,456: INFO: builder_impl: Assets written to: artifacts\prepare_base_model\base_model\assets]
+[2025-09-17 15:27:45,239: ERROR: main: Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>.]
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 31, in <module>
+    prepare_base_model_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 23, in main
+    prepare_base_model.save_model(
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\prepare_base_model.py", line 84, in save_model
+    model.save(path, save_format="tf")   # Save in TensorFlow SavedModel format
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+TypeError: Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>.
+[2025-09-17 15:31:55,587: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 15:31:55,587: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 15:31:55,587: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 15:31:55,587: INFO: common: created directory at: artifacts_root]
+[2025-09-17 15:31:55,587: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 15:31:55,587: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 15:34:18,395: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-17 15:34:31,759: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-17 15:34:31,759: INFO: main: ********************************]
+[2025-09-17 15:34:31,761: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-17 15:34:31,763: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 15:34:31,764: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 15:34:31,764: INFO: common: created directory at: artifacts_root]
+[2025-09-17 15:34:31,765: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-17 15:34:34,837: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-17 15:34:57,612: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 160). These functions will not be directly callable after loading.]
+[2025-09-17 15:35:22,108: INFO: builder_impl: Assets written to: artifacts\prepare_base_model\base_model\assets]
+[2025-09-17 15:35:22,861: ERROR: main: Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>.]
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 31, in <module>
+    prepare_base_model_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 23, in main
+    prepare_base_model.save_model(
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\prepare_base_model.py", line 84, in save_model
+    model.save(path, save_format="tf", include_optimizer=False)   # Save in TensorFlow SavedModel format
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+TypeError: Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>.
+[2025-09-17 15:40:31,301: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 15:40:31,305: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 15:40:31,307: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 15:40:31,308: INFO: common: created directory at: artifacts_root]
+[2025-09-17 15:40:31,309: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 15:40:31,309: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 15:43:01,077: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-17 15:43:19,573: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-17 15:43:19,573: INFO: main: ********************************]
+[2025-09-17 15:43:19,573: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-17 15:43:19,576: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 15:43:19,579: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 15:43:19,580: INFO: common: created directory at: artifacts_root]
+[2025-09-17 15:43:19,580: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-17 15:43:23,103: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-17 15:43:45,803: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 160). These functions will not be directly callable after loading.]
+[2025-09-17 15:44:10,372: INFO: builder_impl: Assets written to: artifacts\prepare_base_model\base_model\assets]
+[2025-09-17 15:44:11,239: ERROR: main: Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>.]
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 31, in <module>
+    prepare_base_model_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 23, in main
+    prepare_base_model.save_model(
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\prepare_base_model.py", line 84, in save_model
+    model.save(path, save_format="tf", include_optimizer=False)   # Save in TensorFlow SavedModel format
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+TypeError: Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>.
+[2025-09-17 15:49:15,282: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 15:49:15,287: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 15:49:15,289: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 15:49:15,290: INFO: common: created directory at: artifacts_root]
+[2025-09-17 15:49:15,290: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 15:49:15,291: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 15:50:35,529: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 15:50:35,532: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 15:50:35,535: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 15:50:35,535: INFO: common: created directory at: artifacts_root]
+[2025-09-17 15:50:35,537: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 15:50:35,538: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 15:52:56,980: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-17 15:53:13,246: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-17 15:53:13,247: INFO: main: ********************************]
+[2025-09-17 15:53:13,247: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-17 15:53:13,250: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 15:53:13,252: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 15:53:13,252: INFO: common: created directory at: artifacts_root]
+[2025-09-17 15:53:13,253: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-17 15:53:16,317: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-17 15:53:39,050: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 160). These functions will not be directly callable after loading.]
+[2025-09-17 15:54:03,525: INFO: builder_impl: Assets written to: artifacts\prepare_base_model\base_model\assets]
+[2025-09-17 15:54:04,472: ERROR: main: Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>.]
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 31, in <module>
+    prepare_base_model_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 23, in main
+    prepare_base_model.save_model(
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\prepare_base_model.py", line 91, in save_model
+    model.save(path_str, save_format="tf", include_optimizer=False)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+TypeError: Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>.
+[2025-09-17 16:04:32,501: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 16:04:32,505: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 16:04:32,506: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 16:04:32,507: INFO: common: created directory at: artifacts_root]
+[2025-09-17 16:04:32,509: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 16:04:32,509: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 16:06:53,040: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-17 16:07:08,285: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-17 16:07:08,285: INFO: main: ********************************]
+[2025-09-17 16:07:08,285: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-17 16:07:08,288: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 16:07:08,290: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 16:07:08,290: INFO: common: created directory at: artifacts_root]
+[2025-09-17 16:07:08,290: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-17 16:07:11,346: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-17 16:07:33,908: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 160). These functions will not be directly callable after loading.]
+[2025-09-17 16:07:58,311: INFO: builder_impl: Assets written to: artifacts\prepare_base_model\base_model\assets]
+[2025-09-17 16:07:59,116: ERROR: main: Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>.]
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 31, in <module>
+    prepare_base_model_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 23, in main
+    prepare_base_model.save_model(
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\prepare_base_model.py", line 90, in save_model
+    model.save(path_str, include_optimizer=False)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+TypeError: Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>.
+[2025-09-17 16:14:53,483: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 16:14:53,483: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 16:14:53,483: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 16:14:53,483: INFO: common: created directory at: artifacts_root]
+[2025-09-17 16:14:53,483: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 16:14:53,490: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 16:18:09,216: ERROR: main: HTTPSConnectionPool(host='drive.google.com', port=443): Read timed out. (read timeout=None)]
+Traceback (most recent call last):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 790, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 969, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\util\ssl_.py", line 480, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\util\ssl_.py", line 524, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\ssl.py", line 1375, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='drive.google.com', port=443): Read timed out. (read timeout=None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 15, in <module>
+    data_ingestion_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\data_ingestion.py", line 33, in download_file
+    raise e
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\data_ingestion.py", line 27, in download_file
+    gdown.download(prefix + file_id, str(zip_download_dir), quiet=False)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\gdown\download.py", line 202, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\adapters.py", line 690, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='drive.google.com', port=443): Read timed out. (read timeout=None)
+[2025-09-17 16:19:07,353: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 16:19:07,359: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 16:19:07,360: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 16:19:07,360: INFO: common: created directory at: artifacts_root]
+[2025-09-17 16:19:07,360: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 16:19:07,362: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 16:23:11,615: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-17 16:23:26,841: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-17 16:23:26,841: INFO: main: ********************************]
+[2025-09-17 16:23:26,842: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-17 16:23:26,843: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 16:23:26,844: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 16:23:26,844: INFO: common: created directory at: artifacts_root]
+[2025-09-17 16:23:26,844: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-17 16:23:30,212: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-09-17 16:23:53,052: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 160). These functions will not be directly callable after loading.]
+[2025-09-17 16:24:17,772: INFO: builder_impl: Assets written to: artifacts\prepare_base_model\base_model\assets]
+[2025-09-17 16:24:18,630: ERROR: main: Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>.]
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 31, in <module>
+    prepare_base_model_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 23, in main
+    prepare_base_model.save_model(
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\prepare_base_model.py", line 76, in save_model
+    model.save(path_str, save_format="tf", include_optimizer=False)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+TypeError: Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>.
+[2025-09-17 16:30:26,699: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 16:30:26,702: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 16:30:26,704: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 16:30:26,704: INFO: common: created directory at: artifacts_root]
+[2025-09-17 16:30:26,705: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 16:30:26,706: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 16:33:29,444: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-17 16:33:42,604: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-17 16:33:42,604: INFO: main: ********************************]
+[2025-09-17 16:33:42,604: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-17 16:33:42,604: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 16:33:42,608: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 16:33:42,608: INFO: common: created directory at: artifacts_root]
+[2025-09-17 16:33:42,608: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-17 16:33:42,608: ERROR: main: module 'keras.api._v2.keras.applications' has no attribute 'EfficientNetV2']
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 31, in <module>
+    prepare_base_model_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 20, in main
+    base_model = prepare_base_model.get_base_model()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\prepare_base_model.py", line 13, in get_base_model
+    self.model = tf.keras.applications.EfficientNetV2(
+AttributeError: module 'keras.api._v2.keras.applications' has no attribute 'EfficientNetV2'
+[2025-09-17 17:04:25,738: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 17:04:25,738: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 17:04:25,743: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 17:04:25,743: INFO: common: created directory at: artifacts_root]
+[2025-09-17 17:04:25,743: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 17:04:25,743: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 17:16:39,963: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 17:16:39,965: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 17:16:39,967: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 17:16:39,967: INFO: common: created directory at: artifacts_root]
+[2025-09-17 17:16:39,968: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 17:16:39,968: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 17:17:47,688: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 17:17:47,688: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 17:17:47,688: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 17:17:47,688: INFO: common: created directory at: artifacts_root]
+[2025-09-17 17:17:47,688: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 17:17:47,688: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 17:46:25,720: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 17:46:25,729: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 17:46:25,732: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 17:46:25,732: INFO: common: created directory at: artifacts_root]
+[2025-09-17 17:46:25,734: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 17:46:25,735: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 17:48:45,391: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-17 17:49:01,097: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-17 17:49:01,099: INFO: main: ********************************]
+[2025-09-17 17:49:01,099: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-17 17:49:01,101: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 17:49:01,101: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 17:49:01,101: INFO: common: created directory at: artifacts_root]
+[2025-09-17 17:49:01,101: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-17 17:49:02,344: ERROR: main: The `save_format` argument is deprecated in Keras 3. Please remove this argument and pass a file path with either `.keras` or `.h5` extension.Received: save_format=tf]
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 31, in <module>
+    prepare_base_model_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 23, in main
+    prepare_base_model.save_model(
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\prepare_base_model.py", line 87, in save_model
+    model.save(path_str, save_format="tf", include_optimizer=False)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\keras\src\saving\saving_api.py", line 69, in save_model
+    raise ValueError(
+ValueError: The `save_format` argument is deprecated in Keras 3. Please remove this argument and pass a file path with either `.keras` or `.h5` extension.Received: save_format=tf
+[2025-09-17 17:52:43,996: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 17:52:44,000: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 17:52:44,004: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 17:52:44,004: INFO: common: created directory at: artifacts_root]
+[2025-09-17 17:52:44,004: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 17:52:44,004: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 17:55:02,004: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-17 17:55:17,486: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-17 17:55:17,487: INFO: main: ********************************]
+[2025-09-17 17:55:17,487: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-17 17:55:17,489: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 17:55:17,490: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 17:55:17,491: INFO: common: created directory at: artifacts_root]
+[2025-09-17 17:55:17,491: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-17 17:55:19,681: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 17:55:19,682: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 17:55:19,684: INFO: common: created directory at: artifacts_root]
+[2025-09-17 17:55:19,684: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-17 17:55:19,684: INFO: main: Base model saved at: artifacts\prepare_base_model\base_model]
+[2025-09-17 17:55:19,685: INFO: main: Updated model saved at: artifacts\prepare_base_model\updated_base_model]
+[2025-09-17 17:55:19,685: INFO: main: >>>>> stage Prepare Base Model Stage completed <<<<<
+
+x==========x]
+[2025-09-17 18:48:56,414: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-17 18:48:56,417: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 18:48:56,420: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 18:48:56,420: INFO: common: created directory at: artifacts_root]
+[2025-09-17 18:48:56,421: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-17 18:48:56,423: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-17 18:51:17,086: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-17 18:51:29,781: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-17 18:51:29,781: INFO: main: ********************************]
+[2025-09-17 18:51:29,781: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-17 18:51:29,781: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 18:51:29,781: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 18:51:29,797: INFO: common: created directory at: artifacts_root]
+[2025-09-17 18:51:29,797: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-17 18:51:31,987: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 18:51:31,988: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 18:51:31,988: INFO: common: created directory at: artifacts_root]
+[2025-09-17 18:51:31,988: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-17 18:51:31,988: INFO: main: Base model saved at: artifacts\prepare_base_model\base_model]
+[2025-09-17 18:51:31,988: INFO: main: Updated model saved at: artifacts\prepare_base_model\updated_base_model]
+[2025-09-17 18:51:31,990: INFO: main: >>>>> stage Prepare Base Model Stage completed <<<<<
+
+x==========x]
+[2025-09-17 19:25:30,454: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 19:25:30,457: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 19:25:30,461: INFO: common: created directory at: artifacts_root]
+[2025-09-17 19:25:30,464: INFO: common: created directory at: artifacts\training]
+[2025-09-17 19:29:17,256: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 19:29:17,260: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 19:29:17,262: INFO: common: created directory at: artifacts_root]
+[2025-09-17 19:29:17,265: INFO: common: created directory at: artifacts\training]
+[2025-09-17 19:30:10,602: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 19:30:10,605: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 19:30:10,606: INFO: common: created directory at: artifacts_root]
+[2025-09-17 19:30:10,606: INFO: common: created directory at: artifacts\training]
+[2025-09-17 19:32:31,419: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 19:32:31,424: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 19:32:31,425: INFO: common: created directory at: artifacts_root]
+[2025-09-17 19:32:31,426: INFO: common: created directory at: artifacts\training]
+[2025-09-17 19:36:32,788: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 19:36:32,810: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 19:36:32,814: INFO: common: created directory at: artifacts_root]
+[2025-09-17 19:36:32,816: INFO: common: created directory at: artifacts\training]
+[2025-09-17 19:40:19,440: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 19:40:19,444: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 19:40:19,445: INFO: common: created directory at: artifacts_root]
+[2025-09-17 19:40:19,448: INFO: common: created directory at: artifacts\training]
+[2025-09-17 19:43:12,471: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 19:43:12,477: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 19:43:12,477: INFO: common: created directory at: artifacts_root]
+[2025-09-17 19:43:12,481: INFO: common: created directory at: artifacts\training]
+[2025-09-17 19:45:07,135: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 19:45:07,140: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 19:45:07,142: INFO: common: created directory at: artifacts_root]
+[2025-09-17 19:45:07,143: INFO: common: created directory at: artifacts\training]
+[2025-09-17 19:45:26,842: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 19:45:26,847: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 19:45:26,849: INFO: common: created directory at: artifacts_root]
+[2025-09-17 19:45:26,851: INFO: common: created directory at: artifacts\training]
+[2025-09-17 19:46:45,792: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 19:46:45,796: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 19:46:45,798: INFO: common: created directory at: artifacts_root]
+[2025-09-17 19:46:45,800: INFO: common: created directory at: artifacts\training]
+[2025-09-17 21:10:11,448: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 21:10:11,451: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 21:10:11,452: INFO: common: created directory at: artifacts_root]
+[2025-09-17 21:10:11,454: INFO: common: created directory at: artifacts\training]
+[2025-09-17 21:21:48,461: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 21:21:48,463: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 21:21:48,463: INFO: common: created directory at: artifacts_root]
+[2025-09-17 21:21:48,463: INFO: common: created directory at: artifacts\training]
+[2025-09-17 21:24:19,208: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 21:24:19,210: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 21:24:19,210: INFO: common: created directory at: artifacts_root]
+[2025-09-17 21:24:19,213: INFO: common: created directory at: artifacts\training]
+[2025-09-17 21:33:02,487: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 21:33:02,490: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 21:33:02,493: INFO: common: created directory at: artifacts_root]
+[2025-09-17 21:33:02,494: INFO: common: created directory at: artifacts\training]
+[2025-09-17 21:47:20,495: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 21:47:20,501: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 21:47:20,505: INFO: common: created directory at: artifacts_root]
+[2025-09-17 21:47:20,506: INFO: common: created directory at: artifacts\training]
+[2025-09-17 21:48:31,135: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 21:48:31,141: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 21:48:31,143: INFO: common: created directory at: artifacts_root]
+[2025-09-17 21:48:31,144: INFO: common: created directory at: artifacts\training]
+[2025-09-17 21:51:50,142: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 21:51:50,147: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 21:51:50,148: INFO: common: created directory at: artifacts_root]
+[2025-09-17 21:51:50,151: INFO: common: created directory at: artifacts\training]
+[2025-09-17 23:08:08,625: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-17 23:08:08,631: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-17 23:08:08,633: INFO: common: created directory at: artifacts_root]
+[2025-09-17 23:08:08,635: INFO: common: created directory at: artifacts\training]
+[2025-09-18 14:26:06,360: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-18 14:26:06,363: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 14:26:06,374: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 14:26:06,375: INFO: common: created directory at: artifacts_root]
+[2025-09-18 14:26:06,376: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-18 14:26:06,377: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-18 14:28:29,010: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-18 14:28:44,423: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-18 14:28:44,423: INFO: main: ********************************]
+[2025-09-18 14:28:44,424: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-18 14:28:44,426: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 14:28:44,429: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 14:28:44,430: INFO: common: created directory at: artifacts_root]
+[2025-09-18 14:28:44,431: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-18 14:28:44,431: ERROR: main: "'ConfigBox' object has no attribute 'learning_rate'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'LEARNING_RATE'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'LEARNING_RATE'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'LEARNING_RATE'. Did you mean: 'LEARNING_RATE_HEAD'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'LEARNING_RATE'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'learning_rate'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'learning_rate'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'learning_rate'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_disease_Classifier\main.py", line 31, in <module>
+    prepare_base_model_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 14, in main
+    prepare_base_model_config = config_manager.get_prepare_base_model_config()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\config\configuration.py", line 41, in get_prepare_base_model_config
+    params_learning_rate=self.params.LEARNING_RATE,
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'learning_rate'". Did you mean: 'LEARNING_RATE_HEAD'?
+[2025-09-18 14:37:55,995: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-18 14:37:55,998: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 14:37:56,001: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 14:37:56,002: INFO: common: created directory at: artifacts_root]
+[2025-09-18 14:37:56,002: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-18 14:37:56,003: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-18 14:40:17,373: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-18 14:40:30,767: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-18 14:40:30,767: INFO: main: ********************************]
+[2025-09-18 14:40:30,768: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-18 14:40:30,770: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 14:40:30,772: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 14:40:30,773: INFO: common: created directory at: artifacts_root]
+[2025-09-18 14:40:30,773: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-18 14:40:30,773: ERROR: main: "'ConfigBox' object has no attribute 'classes'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'CLASSES'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'CLASSES'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'CLASSES'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'CLASSES'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'classes'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'classes'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'classes'. Did you mean: 'Classes'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_disease_Classifier\main.py", line 31, in <module>
+    prepare_base_model_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 14, in main
+    prepare_base_model_config = config_manager.get_prepare_base_model_config()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\config\configuration.py", line 44, in get_prepare_base_model_config
+    params_classes=self.params.CLASSES
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'classes'"
+[2025-09-18 14:43:28,480: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-18 14:43:28,484: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 14:43:28,488: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 14:43:28,488: INFO: common: created directory at: artifacts_root]
+[2025-09-18 14:43:28,489: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-18 14:43:28,489: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-18 14:45:53,092: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-18 14:46:06,537: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-18 14:46:06,537: INFO: main: ********************************]
+[2025-09-18 14:46:06,537: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-18 14:46:06,540: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 14:46:06,540: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 14:46:06,540: INFO: common: created directory at: artifacts_root]
+[2025-09-18 14:46:06,540: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-18 14:46:08,930: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 14:46:08,932: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 14:46:08,933: INFO: common: created directory at: artifacts_root]
+[2025-09-18 14:46:08,933: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-18 14:46:08,934: INFO: main: Base model saved at: artifacts\prepare_base_model\base_model]
+[2025-09-18 14:46:08,934: INFO: main: Updated model saved at: artifacts\prepare_base_model\updated_base_model]
+[2025-09-18 14:46:08,934: INFO: main: >>>>> stage Prepare Base Model Stage completed <<<<<
+
+x==========x]
+[2025-09-18 15:17:06,189: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 15:17:06,194: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 15:17:06,195: INFO: common: created directory at: artifacts_root]
+[2025-09-18 15:17:06,198: INFO: common: created directory at: artifacts\training]
+[2025-09-18 15:20:03,925: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 15:20:03,930: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 15:20:03,932: INFO: common: created directory at: artifacts_root]
+[2025-09-18 15:20:03,934: INFO: common: created directory at: artifacts\training]
+[2025-09-18 16:07:49,447: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 16:07:49,451: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 16:07:49,453: INFO: common: created directory at: artifacts_root]
+[2025-09-18 16:07:49,455: INFO: common: created directory at: artifacts\training]
+[2025-09-18 16:11:54,562: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 16:11:54,566: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 16:11:54,568: INFO: common: created directory at: artifacts_root]
+[2025-09-18 16:11:54,568: INFO: common: created directory at: artifacts\training]
+[2025-09-18 16:30:55,124: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 16:30:55,129: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 16:30:55,133: INFO: common: created directory at: artifacts_root]
+[2025-09-18 16:30:55,133: INFO: common: created directory at: artifacts\training]
+[2025-09-18 16:37:50,587: WARNING: module_wrapper: From c:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+]
+[2025-09-18 16:38:32,349: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 16:38:32,353: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 16:38:32,355: INFO: common: created directory at: artifacts_root]
+[2025-09-18 16:38:32,356: INFO: common: created directory at: artifacts\training]
+[2025-09-18 16:43:13,308: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 16:43:13,312: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 16:43:13,314: INFO: common: created directory at: artifacts_root]
+[2025-09-18 16:43:13,316: INFO: common: created directory at: artifacts\training]
+[2025-09-18 17:23:25,500: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-09-18 18:41:20,916: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 18:41:20,922: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 18:41:20,924: INFO: common: created directory at: artifacts_root]
+[2025-09-18 18:41:20,925: INFO: common: created directory at: artifacts\training]
+[2025-09-18 18:46:52,965: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-18 18:46:52,968: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 18:46:52,972: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 18:46:52,978: INFO: common: created directory at: artifacts_root]
+[2025-09-18 18:46:52,978: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-18 18:46:52,978: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-18 19:15:21,088: ERROR: main: ('Connection broken: IncompleteRead(1204202027 bytes read, 423717281 more expected)', IncompleteRead(1204202027 bytes read, 423717281 more expected))]
+Traceback (most recent call last):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 779, in _error_catcher
+    yield
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 925, in _raw_read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+urllib3.exceptions.IncompleteRead: IncompleteRead(1204202027 bytes read, 423717281 more expected)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 1091, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 1008, in read
+    data = self._raw_read(amt)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 903, in _raw_read
+    with self._error_catcher():
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 803, in _error_catcher
+    raise ProtocolError(arg, e) from e
+urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(1204202027 bytes read, 423717281 more expected)', IncompleteRead(1204202027 bytes read, 423717281 more expected))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_disease_Classifier\main.py", line 15, in <module>
+    data_ingestion_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\data_ingestion.py", line 33, in download_file
+    raise e
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\data_ingestion.py", line 27, in download_file
+    gdown.download(prefix + file_id, str(zip_download_dir), quiet=False)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\gdown\download.py", line 368, in download
+    for chunk in res.iter_content(chunk_size=CHUNK_SIZE):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\models.py", line 822, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(1204202027 bytes read, 423717281 more expected)', IncompleteRead(1204202027 bytes read, 423717281 more expected))
+[2025-09-18 19:15:39,664: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-18 19:15:39,672: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 19:15:39,675: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 19:15:39,675: INFO: common: created directory at: artifacts_root]
+[2025-09-18 19:15:39,675: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-18 19:15:39,675: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-18 19:18:05,276: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-18 19:18:21,685: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-18 19:18:21,686: INFO: main: ********************************]
+[2025-09-18 19:18:21,686: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-18 19:18:21,688: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 19:18:21,691: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 19:18:21,692: INFO: common: created directory at: artifacts_root]
+[2025-09-18 19:18:21,693: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-18 19:18:24,140: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 19:18:24,140: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 19:18:24,145: INFO: common: created directory at: artifacts_root]
+[2025-09-18 19:18:24,145: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-18 19:18:24,145: INFO: main: Base model saved at: artifacts\prepare_base_model\base_model]
+[2025-09-18 19:18:24,145: INFO: main: Updated model saved at: artifacts\prepare_base_model\updated_base_model]
+[2025-09-18 19:18:24,145: INFO: main: >>>>> stage Prepare Base Model Stage completed <<<<<
+
+x==========x]
+[2025-09-18 19:24:16,407: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-18 19:24:16,413: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-18 19:24:16,413: INFO: common: created directory at: artifacts_root]
+[2025-09-18 19:24:16,413: INFO: common: created directory at: artifacts\training]
+[2025-09-19 08:20:32,509: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-19 08:20:32,534: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 08:20:32,546: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 08:20:32,547: INFO: common: created directory at: artifacts_root]
+[2025-09-19 08:20:32,548: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-19 08:20:32,548: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-19 08:30:44,073: ERROR: main: ('Connection broken: IncompleteRead(867271681 bytes read, 760647627 more expected)', IncompleteRead(867271681 bytes read, 760647627 more expected))]
+Traceback (most recent call last):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 779, in _error_catcher
+    yield
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 925, in _raw_read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+urllib3.exceptions.IncompleteRead: IncompleteRead(867271681 bytes read, 760647627 more expected)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 1091, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 1008, in read
+    data = self._raw_read(amt)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 903, in _raw_read
+    with self._error_catcher():
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\urllib3\response.py", line 803, in _error_catcher
+    raise ProtocolError(arg, e) from e
+urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(867271681 bytes read, 760647627 more expected)', IncompleteRead(867271681 bytes read, 760647627 more expected))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 15, in <module>
+    data_ingestion_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\data_ingestion.py", line 33, in download_file
+    raise e
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\data_ingestion.py", line 27, in download_file
+    gdown.download(prefix + file_id, str(zip_download_dir), quiet=False)
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\gdown\download.py", line 368, in download
+    for chunk in res.iter_content(chunk_size=CHUNK_SIZE):
+  File "C:\Users\Asus\anaconda3\envs\kidney\lib\site-packages\requests\models.py", line 822, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(867271681 bytes read, 760647627 more expected)', IncompleteRead(867271681 bytes read, 760647627 more expected))
+[2025-09-19 08:47:35,911: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-19 08:47:35,911: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 08:47:35,911: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 08:47:35,911: INFO: common: created directory at: artifacts_root]
+[2025-09-19 08:47:35,911: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-19 08:47:35,911: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-19 08:50:07,766: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-19 08:50:20,375: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-19 08:50:20,375: INFO: main: ********************************]
+[2025-09-19 08:50:20,376: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-19 08:50:20,377: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 08:50:20,379: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 08:50:20,380: INFO: common: created directory at: artifacts_root]
+[2025-09-19 08:50:20,380: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-19 08:50:20,380: ERROR: main: PrepareBaseModelConfig.__init__() missing 5 required positional arguments: 'params_dropout_rate_head', 'params_dense_units', 'params_weight_decay', 'params_optimizer', and 'params_label_smoothing']
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 31, in <module>
+    prepare_base_model_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 14, in main
+    prepare_base_model_config = config_manager.get_prepare_base_model_config()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\config\configuration.py", line 36, in get_prepare_base_model_config
+    prepare_base_model_config = PrepareBaseModelConfig(
+TypeError: PrepareBaseModelConfig.__init__() missing 5 required positional arguments: 'params_dropout_rate_head', 'params_dense_units', 'params_weight_decay', 'params_optimizer', and 'params_label_smoothing'
+[2025-09-19 09:01:45,951: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-19 09:01:45,953: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 09:01:45,956: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 09:01:45,956: INFO: common: created directory at: artifacts_root]
+[2025-09-19 09:01:45,956: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-19 09:01:45,956: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-19 09:04:20,028: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-19 09:04:31,485: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-19 09:04:31,487: INFO: main: ********************************]
+[2025-09-19 09:04:31,487: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-19 09:04:31,488: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 09:04:31,489: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 09:04:31,489: INFO: common: created directory at: artifacts_root]
+[2025-09-19 09:04:31,489: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-19 09:04:31,489: ERROR: main: "'ConfigBox' object has no attribute 'weight_decay'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'WEIGHT_DECAY'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'WEIGHT_DECAY'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'WEIGHT_DECAY'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'WEIGHT_DECAY'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'weight_decay'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'weight_decay'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'weight_decay'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 31, in <module>
+    prepare_base_model_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 14, in main
+    prepare_base_model_config = config_manager.get_prepare_base_model_config()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\config\configuration.py", line 44, in get_prepare_base_model_config
+    params_weight_decay=self.params.WEIGHT_DECAY,
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'weight_decay'"
+[2025-09-19 09:11:16,567: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-19 09:11:16,569: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 09:11:16,573: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 09:11:16,573: INFO: common: created directory at: artifacts_root]
+[2025-09-19 09:11:16,573: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-19 09:11:16,574: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-19 09:13:47,847: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-19 09:13:59,230: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-19 09:13:59,231: INFO: main: ********************************]
+[2025-09-19 09:13:59,231: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-19 09:13:59,231: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 09:13:59,231: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 09:13:59,231: INFO: common: created directory at: artifacts_root]
+[2025-09-19 09:13:59,231: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-19 09:14:00,831: ERROR: main: SparseCategoricalCrossentropy.__init__() got an unexpected keyword argument 'label_smoothing']
+Traceback (most recent call last):
+  File "C:\Users\Asus\Desktop\kidney_Disease_Classifier\main.py", line 31, in <module>
+    prepare_base_model_pipeline.main()
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 29, in main
+    updated_model = prepare_base_model.update_base_model(fine_tune_at=400)  # optional fine-tuning
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\prepare_base_model.py", line 90, in update_base_model
+    self.full_model = self._prepare_full_model(
+  File "c:\users\asus\desktop\kidney_disease_classifier\src\cnnClassifier\components\prepare_base_model.py", line 74, in _prepare_full_model
+    loss_fn = tf.keras.losses.SparseCategoricalCrossentropy(label_smoothing=label_smoothing)
+TypeError: SparseCategoricalCrossentropy.__init__() got an unexpected keyword argument 'label_smoothing'
+[2025-09-19 09:19:05,560: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-19 09:19:05,562: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 09:19:05,565: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 09:19:05,566: INFO: common: created directory at: artifacts_root]
+[2025-09-19 09:19:05,566: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-19 09:19:05,566: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-19 09:21:37,871: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-19 09:21:49,304: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-19 09:21:49,304: INFO: main: ********************************]
+[2025-09-19 09:21:49,305: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-19 09:21:49,305: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 09:21:49,309: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 09:21:49,309: INFO: common: created directory at: artifacts_root]
+[2025-09-19 09:21:49,309: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-19 09:21:51,273: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 09:21:51,276: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 09:21:51,276: INFO: common: created directory at: artifacts_root]
+[2025-09-19 09:21:51,276: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-19 09:21:51,277: INFO: main: Base model saved at: artifacts\prepare_base_model\base_model]
+[2025-09-19 09:21:51,277: INFO: main: Updated model saved at: artifacts\prepare_base_model\updated_base_model]
+[2025-09-19 09:21:51,277: INFO: main: >>>>> stage Prepare Base Model Stage completed <<<<<
+
+x==========x]
+[2025-09-19 09:39:23,534: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 09:39:23,539: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 09:39:23,540: INFO: common: created directory at: artifacts_root]
+[2025-09-19 09:39:23,542: INFO: common: created directory at: artifacts\training]
+[2025-09-19 09:45:13,356: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 09:45:13,383: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 09:45:13,385: INFO: common: created directory at: artifacts_root]
+[2025-09-19 09:45:13,386: INFO: common: created directory at: artifacts\training]
+[2025-09-19 09:48:12,056: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 09:48:12,059: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 09:48:12,059: INFO: common: created directory at: artifacts_root]
+[2025-09-19 09:48:12,059: INFO: common: created directory at: artifacts\training]
+[2025-09-19 09:49:38,494: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 09:49:38,501: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 09:49:38,504: INFO: common: created directory at: artifacts_root]
+[2025-09-19 09:49:38,505: INFO: common: created directory at: artifacts\training]
+[2025-09-19 11:28:34,260: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-19 11:28:34,262: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 11:28:34,268: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 11:28:34,269: INFO: common: created directory at: artifacts_root]
+[2025-09-19 11:28:34,269: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-19 11:28:34,270: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-19 11:31:04,806: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-19 11:31:20,490: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-19 11:31:20,490: INFO: main: ********************************]
+[2025-09-19 11:31:20,490: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-19 11:31:20,493: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 11:31:20,496: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 11:31:20,496: INFO: common: created directory at: artifacts_root]
+[2025-09-19 11:31:20,497: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-19 11:31:22,907: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 11:31:22,909: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 11:31:22,909: INFO: common: created directory at: artifacts_root]
+[2025-09-19 11:31:22,909: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-19 11:31:22,909: INFO: main: Base model saved at: artifacts\prepare_base_model\base_model]
+[2025-09-19 11:31:22,909: INFO: main: Updated model saved at: artifacts\prepare_base_model\updated_base_model]
+[2025-09-19 11:31:22,909: INFO: main: >>>>> stage Prepare Base Model Stage completed <<<<<
+
+x==========x]
+[2025-09-19 11:47:46,964: INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-09-19 11:47:46,969: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 11:47:46,971: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 11:47:46,971: INFO: common: created directory at: artifacts_root]
+[2025-09-19 11:47:46,971: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-09-19 11:47:46,971: INFO: data_ingestion: Downloading file from :[https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing] into :[artifacts\data_ingestion\data.zip]]
+[2025-09-19 11:50:26,799: INFO: data_ingestion: Download data from https://drive.google.com/file/d/10MMubDH0wG9NdUxuuRfBnmiBqItY8WhJ/view?usp=sharing into fileartifacts\data_ingestion\data.zip]
+[2025-09-19 11:50:38,982: INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-09-19 11:50:38,982: INFO: main: ********************************]
+[2025-09-19 11:50:38,982: INFO: main: >>>>> stage Prepare Base Model Stage started <<<<<]
+[2025-09-19 11:50:38,984: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 11:50:38,987: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 11:50:38,988: INFO: common: created directory at: artifacts_root]
+[2025-09-19 11:50:38,988: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-19 11:50:41,135: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 11:50:41,135: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 11:50:41,135: INFO: common: created directory at: artifacts_root]
+[2025-09-19 11:50:41,135: INFO: common: created directory at: artifacts\prepare_base_model]
+[2025-09-19 11:50:41,135: INFO: main: Base model saved at: artifacts\prepare_base_model\base_model]
+[2025-09-19 11:50:41,135: INFO: main: Updated model saved at: artifacts\prepare_base_model\updated_base_model]
+[2025-09-19 11:50:41,135: INFO: main: >>>>> stage Prepare Base Model Stage completed <<<<<
+
+x==========x]
+[2025-09-19 12:03:25,737: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 12:03:25,741: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 12:03:25,742: INFO: common: created directory at: artifacts_root]
+[2025-09-19 12:03:25,744: INFO: common: created directory at: artifacts\training]
+[2025-09-19 12:06:04,453: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 12:06:04,457: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 12:06:04,459: INFO: common: created directory at: artifacts_root]
+[2025-09-19 12:06:04,460: INFO: common: created directory at: artifacts\training]
+[2025-09-19 12:11:23,466: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 12:11:23,471: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 12:11:23,472: INFO: common: created directory at: artifacts_root]
+[2025-09-19 12:11:23,473: INFO: common: created directory at: artifacts\training]
+[2025-09-19 12:16:20,619: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 12:16:20,623: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 12:16:20,624: INFO: common: created directory at: artifacts_root]
+[2025-09-19 12:16:20,625: INFO: common: created directory at: artifacts\training]
+[2025-09-19 18:17:01,126: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 18:17:01,130: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 18:17:01,131: INFO: common: created directory at: artifacts_root]
+[2025-09-19 18:17:01,132: INFO: common: created directory at: artifacts\training]
+[2025-09-19 18:19:40,403: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 18:19:40,406: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 18:19:40,408: INFO: common: created directory at: artifacts_root]
+[2025-09-19 18:19:40,409: INFO: common: created directory at: artifacts\training]
+[2025-09-19 18:22:28,010: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 18:22:28,015: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 18:22:28,017: INFO: common: created directory at: artifacts_root]
+[2025-09-19 18:22:28,019: INFO: common: created directory at: artifacts\training]
+[2025-09-19 18:25:57,620: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 18:25:57,626: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 18:25:57,628: INFO: common: created directory at: artifacts_root]
+[2025-09-19 18:25:57,630: INFO: common: created directory at: artifacts\training]
+[2025-09-19 18:27:30,761: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 18:27:30,767: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 18:27:30,767: INFO: common: created directory at: artifacts_root]
+[2025-09-19 18:27:30,772: INFO: common: created directory at: artifacts\training]
+[2025-09-19 21:17:39,369: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-19 21:17:39,378: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-19 21:17:39,381: INFO: common: created directory at: artifacts_root]
+[2025-09-19 21:17:39,383: INFO: common: created directory at: artifacts\training]
+[2025-09-20 08:49:09,309: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-20 08:49:09,316: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 08:49:09,318: INFO: common: created directory at: artifacts_root]
+[2025-09-20 08:49:09,319: INFO: common: created directory at: artifacts\training]
+[2025-09-20 09:40:47,251: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-20 09:40:47,256: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 09:40:47,256: INFO: common: created directory at: artifacts_root]
+[2025-09-20 09:40:47,258: INFO: common: created directory at: artifacts\training]
+[2025-09-20 12:15:32,006: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-20 12:15:32,015: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 12:15:32,016: INFO: common: created directory at: artifacts_root]
+[2025-09-20 12:15:32,017: INFO: common: created directory at: artifacts\training]
+[2025-09-20 14:41:26,336: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-20 14:41:26,342: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 14:41:26,344: INFO: common: created directory at: artifacts_root]
+[2025-09-20 14:41:26,346: INFO: common: created directory at: artifacts\training]
+[2025-09-20 14:43:21,241: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-20 14:43:21,256: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 14:43:21,261: INFO: common: created directory at: artifacts_root]
+[2025-09-20 14:43:21,264: INFO: common: created directory at: artifacts\training]
+[2025-09-20 14:48:42,213: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-09-20 14:48:42,216: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-09-20 14:48:42,219: INFO: common: created directory at: artifacts_root]
+[2025-09-20 14:48:42,220: INFO: common: created directory at: artifacts\training]
